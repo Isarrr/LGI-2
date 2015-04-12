@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-abr-2015, 22:31:18
+    Author     : ASUS
+*/
+
+.jumbotron {
+    background-image: url('../img/3.jpg');
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px #999;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.row img {
+  float: left;
+  position: absolute;
+  left: 0;
+  transition: opacity 1.5s ease-in-out;
+ 
+}
+
+img {
+    max-width: 242px;
+    max-height: 200px;
+    margin-left: 20%;
+}
+
+.row img.top:hover {
+  opacity: 0;
+}
+
+.PieFoto {
+    padding-top: 210px;
+}
+
+p {
+    text-align: justify;
+}
